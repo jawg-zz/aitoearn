@@ -203,6 +203,12 @@ services:
       MAIL_USER: ""
       MAIL_PASS: ""
 
+      # Aliyun SMS
+      ALI_SMS_ACCESS_KEY_ID: "placeholder"
+      ALI_SMS_ACCESS_KEY_SECRET: "placeholder"
+      ALI_SMS_SIGN_NAME: "placeholder"
+      ALI_SMS_TEMPLATE_CODE: "placeholder"
+
       # Relay (optional - recommended)
       RELAY_SERVER_URL: https://aitoearn.ai/api
       RELAY_API_KEY: ""
